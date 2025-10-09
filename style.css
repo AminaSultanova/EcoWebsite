@@ -169,3 +169,33 @@ footer {
     max-width: 90%;
   }
 }
+
+/* --- Register page minimal styling --- */
+.register-section {
+  background: white;
+  border-radius: 12px;
+  padding: 25px;
+  max-width: 450px;
+  margin: 40px auto;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+.register-form input, .register-form button {
+  width: 100%;
+  padding: 10px;
+  margin-top: 10px;
+  border: 1px solid var(--green-light);
+  border-radius: 6px;
+}
+
+.register-form button {
+  background: var(--green-main);
+  color: white;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.register-form button:hover {
+  background: var(--accent);
+}
+
